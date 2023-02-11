@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [14, 16, 18]
+        node: [16, 18]
     name: 🧪 Tests (Node ${{ matrix.node }})
     steps:
       - name: Set up repository

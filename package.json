@@ -30,6 +30,9 @@
     }
   },
   "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "build": "rimraf dist && tsup",
     "watch": "rimraf dist && tsup --watch",
