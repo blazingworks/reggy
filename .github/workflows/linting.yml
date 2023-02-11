@@ -49,7 +49,7 @@ jobs:
       - name: Check coverage
         run: pnpm test:coverage
   build:
-    name: 📦 Test Build
+    name: 🏗️ Test Build
     runs-on: ubuntu-latest
     steps:
       - name: Set up repository

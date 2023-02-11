@@ -43,7 +43,8 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
@@ -56,9 +57,14 @@
     "ts-jest": "^29.0.5",
     "tsup": "^6.6.0",
     "tsx": "^3.12.3",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "semantic-release": "^20.1.0"
   },
   "dependencies": {
     "@blazingworks/utils": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blazingworks/reggy.git"
   }
 }
