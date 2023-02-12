@@ -68,7 +68,7 @@ const messageRegex = message.buildRegex();
 
 ## How to report issues / questions
 
-- For general issues or questions, [open an issue](https://github.com/blazingworks/logger/issues/new)
+- For general issues or questions, [open an issue](https://github.com/blazingworks/reggy/issues/new)
 - For security issues, please send an email to [security@blazing.works](mailto:security@blazing.works)
 - For important questions, please email [developers@blazing.works](mailto:developers@blazing.works)
 
