@@ -33,6 +33,12 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    ".github/blazingworks_opensource.svg"
+  ],
   "scripts": {
     "build": "rimraf dist && tsup",
     "watch": "rimraf dist && tsup --watch",

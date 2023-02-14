@@ -25,12 +25,14 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
+      - name: Build
+        run: pnpm build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GIT_AUTOR_NAME: "BlazingWorks CI"
-          GIT_AUTOR_EMAIL: "hey@blazing.works"
+          GIT_AUTHOR_NAME: "BlazingWorks CI"
+          GIT_AUTHOR_EMAIL: "hey@blazing.works"
           GIT_COMMITTER_NAME: "BlazingWorks CI"
           GIT_COMMITTER_EMAIL: "hey@blazing.works"
         run: pnpm semantic-release
