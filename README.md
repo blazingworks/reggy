@@ -1,7 +1,8 @@
 # reggy
 
 <div align="center">
-📕 Powerful and easy to read RegEx builder by BlazingWorks
+
+![📕 Powerful and easy to read RegEx builder by BlazingWorks](.github/assets/cover.png)
 
 ![License](https://img.shields.io/github/license/blazingworks/reggy?color=%235300cf&labelColor=%230a0014&style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/blazingworks/reggy?color=%235300cf&labelColor=%230a0014&style=for-the-badge)
@@ -15,14 +16,14 @@ Reggy is a powerful and easy to read RegEx builder. It is attempting to be usabl
 
 ## Current status (⚠️)
 
-Reggy is currently in development and is not suggested for production use. The code is currently still a big mess and needs to be cleaned up and optimized. Consider the 0.xx versions as preview versions / a tech demo.
+Reggy is currently just a proof of concept and it not yet ready for production use. Reggy will currently not work with a variety of runtime environments at this time.
 
 ## Installation
 
 ```sh
-$ npm install reggy
-$ yarn add reggy
-$ pnpm add reggy
+npm install reggy
+yarn add reggy
+pnpm add reggy
 ```
 
 ## Usage
@@ -38,9 +39,9 @@ const characterLineRegex = r
   .lineEnd()
   .buildRegex();
 
-const string = "<CASEY> Hello World!";
+const string = "<MIKU> Hello World!";
 const match = string.match(characterLineRegex);
-console.log(match[1]); // CASEY
+console.log(match[1]); // MIKU
 console.log(match[2]); // Hello World!
 ```
 
@@ -77,5 +78,5 @@ const messageRegex = message.buildRegex();
 Reggy is licensed under the [MIT License](/LICENSE).
 
 <div align="center" style="margin-top: 30px">
-<a href="https://blazing.works"><img src=".github/blazingworks_opensource.svg" alt="BlazingWorks Open-Sourcd" width="200px"></a>
+  <a href="https://blazing.works"><img src=".github/assets/bw_opensource.svg" alt="BlazingWorks Open-Sourcd" width="200px"></a>
 </div>
